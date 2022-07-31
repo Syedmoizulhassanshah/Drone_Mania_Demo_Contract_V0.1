@@ -7,10 +7,10 @@ a) Deploy smart contract on rinkeby/polgon testnet.
 b) Create .env file add the API_URL , Private key and deployed contract address.
 
 ### 3. Script ./getReadOnlyFunction
-`$ node ./getReadOnlyFunc.js`
+`$ node Scripts/getReadOnlyFunc.js`
 it will return the read only functions 
 
 ### 4. Run Script getNonConstantFunction
 
-`$ node ./getNonConstantFunc.js`
+`$ node Scripts/getNonConstantFunc.js`
 it will sign the transaction and update contract state 
